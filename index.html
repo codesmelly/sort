@@ -326,6 +326,8 @@
     }
 
     function CheckMobile() {
+        console.log("myGameInstance");
+        console.log(myGameInstance);        
         if (mobile) {
             myGameInstance.SendMessage('VkBridge', 'CheckMobileResult', 'true');
         }
